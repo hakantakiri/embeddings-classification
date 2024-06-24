@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  classificator:
+    build: .
+    volumes:
+      - ./:/opt/app
+    # command: "python3 src/1_embed_categories.py"
